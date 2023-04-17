@@ -1,0 +1,16 @@
+.a{
+	text-align: center;
+
+}
+.b{
+	text-align: justify;
+}
+.img{
+    width: 80%;
+}
+@media(max-width:768px)
+{
+    .img{
+        width: 100px;
+    }
+}

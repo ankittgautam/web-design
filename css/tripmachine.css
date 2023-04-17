@@ -1,0 +1,232 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Chivo Mono', monospace;
+    font-family: 'Righteous', cursive;
+    font-family: 'Seymour One', sans-serif;
+   
+}
+.head{
+	width: 100%;
+	display: flex;
+	align-items: center;
+	background-color: black;
+	color: white;
+	height: 36px;
+	padding-left: 570px;
+	font-size: 15px;
+	word-spacing: 4px;
+}
+.navbar{
+	width: 100%;
+    height: 80px;
+    background: whitesmoke;
+    display: flex;
+    position: relative;
+    justify-content: space-around;
+    padding-top: 23px;
+    position: fixed;
+    top: 0;
+}
+.navbar img{
+	height: 40px;
+}
+.navbar ul{
+	list-style: none;
+    display: flex;
+    gap: 40px;
+    font-size: 15px;
+}
+.icon{
+	display: flex;
+	gap: 20px;
+	font-size: 20px;
+}
+.thigh img{
+	width: 100%;
+}
+.thigh h1{
+	color: white;
+	margin: -371px 69px;
+}
+.thigh button{
+	background: yellow;
+	color: black;
+	margin: 383px 68px;
+    border: none;
+    height: 47px;
+    width: 145px;
+}
+.gear{
+	width: 100%;
+	height: 50px;
+	text-align: center;
+	text-decoration: underline;
+	text-decoration-color: yellow;
+}
+.gear h1{
+	    margin: -95px 0;
+}
+.mini{
+    display: flex;
+    gap: 5px;
+    margin: 0 130px;
+}
+.a{
+	height: 100%;
+	width: 100%;
+	overflow: hidden;
+}
+.a img{
+	height: 340px;
+}
+.a p{
+	text-align: center;
+	margin-top: 10px;
+    text-decoration: underline;
+    text-decoration-color: yellow;
+}
+.bag{
+	display: flex;
+	justify-content: center;
+    gap: 40px;
+    margin-top: 30px;
+}
+.bag1 h1{
+	position: relative;
+	top: -55%;
+	text-align: center;
+    color: wheat;
+}
+.enfield img{
+	width: 100%;
+	height: 100%;
+}
+.enfield h1{
+	margin-top: -440px;
+    text-align: center;
+    color: white;
+}
+.enfield p{
+	text-align: center;
+    color: white;
+}
+.enfield button{
+	margin: 15px 600px;
+    height: 44px;
+    width: 135px;
+    background: yellow;
+    border: none;
+}
+.review{
+	display: flex;
+    margin-top: 313px;
+    margin-left: 250px;
+}
+.review1 img{
+	height: 300px;
+    margin-left: 20px;
+}
+.review1 h6{
+	margin-left: 60px;
+}
+.review1 p{
+	margin-left:60px;
+}
+.tools{
+	display: flex;
+    overflow: hidden;
+    margin: 15px 53px;
+}
+.tools1 img{
+	height: 380px;
+	margin-left: 27px;
+    width: 274px;
+}
+.tools1 h4{
+	text-align: center;
+	text-decoration:underline;
+	text-decoration-color: yellow;
+}
+.style{
+	display: flex;
+	gap: 25px;
+	margin: 30px 70px;
+}
+.style1 h2{
+	color: white;
+    margin: -199px 181px;
+    position: absolute;
+}
+.style1{
+	    margin-bottom: 21px;
+}
+.bike{
+	display: flex;
+    gap: 35px;
+    margin-left: 85px;
+}
+.bike1 div img{
+	height: 245px;
+	margin-bottom: 5px;
+}
+.bike2 img{
+	width: 332px;
+    height: 510px;
+}
+.bike3{
+	display: flex;
+	gap: 10px;
+	margin-bottom: 5px;
+}
+.bike4{
+	display: flex;
+	gap: 10px;
+}
+.bike3 div img{
+	height: 250px;
+	width: 250px;
+}
+.bike4 div img{
+	height: 250px;
+	width: 250px;
+}
+.co{
+	width: 100%;
+	height: 120px;
+	text-align: center;
+}
+.co h2{
+	text-decoration: underline;
+    text-decoration-color: yellow;
+}
+.footer{
+	display: flex;
+    gap: 58px;
+    background: black;
+    color: white;
+    width: 100%;
+    margin-top: 38px;
+    height: 340px;
+    padding-top: 44px;
+}
+.footer1 ul li{
+	list-style: none;
+	margin-top: 10px;
+}
+.footer2 ul li{
+	list-style: none;
+	margin-top: 10px;
+}
+.footer h4{
+	margin-bottom: 15px;
+}
+.footer1{
+	margin-left: 117px;
+}
+.footer3 i{
+	width: 28px;
+    margin-top: 15px;
+    font-size: 25px;
+}

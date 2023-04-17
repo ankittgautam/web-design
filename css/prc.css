@@ -1,0 +1,82 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing:border-box;
+	font-family: sans-serif;
+}
+header{
+	width: 100%;
+	overflow: hidden;
+    height: 450px;
+    position: relative;
+}
+.headerimage{
+	width: 100%;
+	top: -100px;
+	position: absolute;
+	z-index: -1;
+}
+.navbar{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	color: white;
+	margin: 40px 120px;
+}
+ul{
+	list-style: none;
+    font-weight: lighter;
+    display: flex;
+    gap: 20px;
+}
+.head{
+	display: flex;
+	flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+.logo{
+	    width: 280px;
+}
+.head h3{
+    color: white;
+    font-size: 35px;
+    margin-top: 32px;
+    font-weight: 400;
+}
+.search{
+	display: flex;
+    background: white;
+    width: 715px;
+    align-items: center;
+    border-radius: 10px;
+    padding: 5px 4px;
+    margin: 41px;
+}
+.search .searchitem{
+	display: flex;
+	align-items: center;
+	margin-left: 10px;
+}
+.search .searchitem p{
+	    margin: 11px 16px;
+    color: gray;
+}
+.search .searchitem:first-child{
+	width: 30%;
+	color: rgb(255,126,139);
+}
+.search .searchitem input{
+	outline: none;
+	border: none;
+	width: 260px;
+	padding-left: 10px;
+	font-size: 15px;
+}
+.search .searchitem:second-child{
+	color: gray;
+	width: 70%;
+}
+
+
